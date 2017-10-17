@@ -9,3 +9,4 @@ $ rails s
 ```
 
 Navigate to `http://localhost:3000`
+# module_3_diagnostic
