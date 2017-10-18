@@ -8,11 +8,9 @@ describe "user can filter stations" do
     visit '/'
 
     # And I fill in the search form with 80203
-    # within(:css, "nav navbar-nav") do
-    #   fill_in '#q', :with => '80203'
-    # end
+      fill_in "q", :with => '80203'
 
-    find('form-group search-field').set("80203")
+    # fill_in("#bs-example-navbar-collapse-1", with: "80203")
 
     # And I click "Locate"
     click_on "Locate"
