@@ -10,8 +10,6 @@ describe "user can filter stations" do
     # And I fill in the search form with 80203
       fill_in "q", :with => '80203'
 
-    # fill_in("#bs-example-navbar-collapse-1", with: "80203")
-
     # And I click "Locate"
     click_on "Locate"
 
