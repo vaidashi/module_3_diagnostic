@@ -18,6 +18,7 @@ group :development, :test do
   gem 'pry'
   gem 'rspec-rails'
   gem 'launchy'
+  gem 'capybara'
   gem 'simplecov'
   gem 'shoulda-matchers'
   gem 'awesome_print'

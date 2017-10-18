@@ -1,0 +1,25 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/vaidashi/turing/3module/mid-mod-assessment/alt-fuel-finder/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/vaidashi/turing/3module/mid-mod-assessment/alt-fuel-finder/app/controllers/welcome_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/vaidashi/turing/3module/mid-mod-assessment/alt-fuel-finder/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1508340553
+  }
+}
