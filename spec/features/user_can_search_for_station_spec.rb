@@ -8,7 +8,11 @@ describe "user can filter stations" do
     visit '/'
 
     # And I fill in the search form with 80203
-    fill_in "form-group search-field", with: "80203"
+    # within(:css, "nav navbar-nav") do
+    #   fill_in '#q', :with => '80203'
+    # end
+
+    find('form-group search-field').set("80203")
 
     # And I click "Locate"
     click_on "Locate"
@@ -30,6 +34,6 @@ describe "user can filter stations" do
       expect(page).to have_css(".fuel_type")
       expect(page).to have_css(".distance")
       expect(page).to have_css(".access_time")
-    end 
+    end
   end
 end
