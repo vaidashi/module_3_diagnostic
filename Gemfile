@@ -24,10 +24,7 @@ group :development, :test do
   gem 'awesome_print'
 end
 
-group :test do
-  gem 'vcr'
-  gem 'webmock'
-end
+
 
 group :development do
   gem 'web-console', '~> 2.0'
